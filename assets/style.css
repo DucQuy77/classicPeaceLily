@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Roboto:wght@300;400;500;700&display=swap');
+html{
+  font-size: 62.5%;
+}
+
+.plant-details{
+  width: 80rem;
+  min-height: 60rem;
+  background-color: #aedba5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.plant-detail__container{
+  background-color: #fff;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.5);
+
+}
+.plant-detail__header{
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.plant-detail__back{
+  color: #999;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.plant-detail__back span{
+  margin-left: 1.5rem;
+}
+
+.plant-detail__like{
+  color: #999;
+  font-size: 2rem;
+}
+
+.plant-detail__content{
+  display: flex;
+}
+
+.plant-detail__content > div{
+  padding: 4rem;
+}
+
+.plant-detail__image{
+  width: 40%;
+}
+
+.plant-detail__image img{
+  width: 100%;
+}
+
+.plant-detail__info{
+  width: 60%;
+  border-left: 1px solid #eee;
+}
+
+.plant-detail__title{
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.plant-detail__category{
+  text-transform: uppercase;
+  color: #999;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.plant-detail__price{
+  font-size: 2rem;
+  display: block;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.plant-detail__desc{
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #999;
+  margin-bottom: 2rem;
+}
+
+.plant-detail__button{
+  outline: none;
+  cursor: pointer;
+  color: #999;
+  text-transform: uppercase;
+  border: 1px solid currentColor;
+  padding: 1rem 3rem;
+  min-width: 15rem;
+  font-size: 1.4rem;
+}
+
+.plant-detail__button:first-of-type{
+  margin-right: 1rem; 
+}
